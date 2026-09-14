@@ -1,4 +1,10 @@
-# AlatPay Payment SDK
+# AlatPay Flutter (`flutter_alatpay_igefadele`)
+
+A Flutter package for integrating WEMA Bank's AlatPay payment gateway into your cross-platform Flutter projects (Android, iOS, and Web).
+
+[![flutter platform](https://img.shields.io/badge/Platform-Flutter-yellow.svg)](https://flutter.dev)
+[![pub package](https://img.shields.io/pub/v/flutter_alatpay_igefadele.svg)](https://pub.dev/packages/flutter_alatpay_igefadele)
+[![repo](https://img.shields.io/badge/GitHub-igefadele%2Fflutter__alatpay__igefadele-blue.svg)](https://github.com/igefadele/flutter_alatpay_igefadele)
 
 The AlatPayFlutter class is a flutter widget that allows you to integrate WEMA Bank's Alatpay payment gateway into your flutter project. It provides a WebView that loads an Alatpay payment page with the transaction details to be processed. The class handles the response from the payment gateway and provides callback functions for handling successful transactions and errors. The class requires parameters such as metaData, businessId, apiKey, and amount to process the payment. It supports Android, iOS and Web platforms. Other platforms coming soon.
 
@@ -33,28 +39,24 @@ Overall, the AlatPayFlutter class provides a convenient and secure way to integr
 
 `onClose`: A callback function that is called when the service is closed.
 
-<!-- `alatpay_flutter:` AlatPayFlutter dependency.
-
-`AlatPayFlutter`: The main AlatPayFlutter widget that handles the whole process. -->
-
 ## Installation
 
-To use this package, add `alatpay_flutter` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+To use this package, add `flutter_alatpay_igefadele` as a dependency in your `pubspec.yaml` file.
 
-```yaml {"id":"01HJZ0C4E8NYR3TDB3TYMVYFWD"}
+```yaml
 dependencies:
-  alatpay_flutter: latest version
+  flutter_alatpay_igefadele: ^0.1.0
 ```
 
 ## Example
 
-How to use the alatpay_flutter package.
+How to use the `flutter_alatpay_igefadele` package.
 
-```dart {"id":"01HJZ0C4E8NYR3TDB3V1EYNWDG"}
+```dart
 
 import 'dart:io';
 
-import 'package:alatpay_flutter/alatpay_flutter.dart';
+import 'package:flutter_alatpay_igefadele/flutter_alatpay_igefadele.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 
