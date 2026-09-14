@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:alatpay_flutter/alatpay_flutter.dart';
+import 'package:flutter_alatpay_igefadele/flutter_alatpay_igefadele.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 

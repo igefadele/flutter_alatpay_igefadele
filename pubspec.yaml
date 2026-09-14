@@ -1,9 +1,8 @@
 name: flutter_alatpay_igefadele
-description: "A flutter package for integrating WEMA Bank's Alatpay payment gateway into your flutter project. It supports Android, iOS and Web platforms. Other platforms coming soon."
-# The following line prevents the package from being accidentally published to
-# pub.dev using `flutter pub publish`. This is preferred for private packages.
-
+description: A Flutter package by Ige Fadele for integrating WEMA Bank's AlatPay payment gateway into your cross-platform Flutter projects (Android, iOS, and Web).
 homepage: https://github.com/igefadele/flutter_alatpay_igefadele
+repository: https://github.com/igefadele/flutter_alatpay_igefadele
+issue_tracker: https://github.com/igefadele/flutter_alatpay_igefadele/issues
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
